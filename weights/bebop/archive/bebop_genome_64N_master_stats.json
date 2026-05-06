@@ -1,0 +1,29 @@
+{
+    "drone_type": "Bebop",
+    "architecture": {
+        "window_size_samples": 248,
+        "hidden_neurons": 64,
+        "latency_penalty_weight": 0.2
+    },
+    "micro_accuracy": "65.57%",
+    "vhdl_deployments": {
+        "method_1": {
+            "best_acc": "Size: 64 | T>=52 | Rec: 90.0% | FAR: 25.0% | Acc: 82.1%",
+            "min_far": "Size: 57 | T>=38 | Rec: 100.0% | FAR: 49.0% | Acc: 74.5%",
+            "max_rec": null,
+            "best_efficiency": "Size: 40 | T>=39 | Rec: 56.9% | FAR: 8.6% | Acc: 74.8%"
+        },
+        "method_2": {
+            "best_acc": "Size: 62 | X>=46, Y>=61 | Rec: 90.5% | FAR: 15.9% | Acc: 87.2%",
+            "min_far": "Size: 57 | X>=38, Y>=52 | Rec: 100.0% | FAR: 29.2% | Acc: 84.9%",
+            "max_rec": null,
+            "best_efficiency": "Size: 59 | X>=52, Y>=58 | Rec: 68.2% | FAR: 8.7% | Acc: 80.0%"
+        },
+        "method_3": {
+            "best_acc": "Size: 57 | T>=38, 3/3 | Rec: 100.0% | FAR: 10.6% | Acc: 94.6%",
+            "min_far": "Size: 57 | T>=38, 3/3 | Rec: 100.0% | FAR: 10.6% | Acc: 94.6%",
+            "max_rec": "Size: 63 | T>=50, 3/3 | Rec: 68.3% | FAR: 0.0% | Acc: 84.3%",
+            "best_efficiency": "Size: 61 | T>=42, 3/3 | Rec: 95.2% | FAR: 9.1% | Acc: 93.0%"
+        }
+    }
+}

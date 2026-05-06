@@ -1,0 +1,29 @@
+{
+    "drone_type": "Membo",
+    "architecture": {
+        "window_size_samples": 248,
+        "hidden_neurons": 64,
+        "latency_penalty_weight": 0.2
+    },
+    "micro_accuracy": "77.37%",
+    "vhdl_deployments": {
+        "method_1": {
+            "best_acc": "Size: 58 | T>=42 | Rec: 95.5% | FAR: 4.7% | Acc: 95.4%",
+            "min_far": "Size: 60 | T>=34 | Rec: 100.0% | FAR: 26.2% | Acc: 86.9%",
+            "max_rec": "Size: 59 | T>=56 | Rec: 67.4% | FAR: 0.0% | Acc: 83.5%",
+            "best_efficiency": "Size: 58 | T>=42 | Rec: 95.5% | FAR: 4.7% | Acc: 95.4%"
+        },
+        "method_2": {
+            "best_acc": "Size: 57 | X>=40, Y>=47 | Rec: 95.6% | FAR: 2.4% | Acc: 96.6%",
+            "min_far": "Size: 60 | X>=31, Y>=59 | Rec: 100.0% | FAR: 9.8% | Acc: 95.2%",
+            "max_rec": "Size: 54 | X>=38, Y>=52 | Rec: 91.5% | FAR: 0.0% | Acc: 95.7%",
+            "best_efficiency": "Size: 38 | X>=21, Y>=35 | Rec: 97.0% | FAR: 9.2% | Acc: 93.9%"
+        },
+        "method_3": {
+            "best_acc": "Size: 49 | T>=36, 2/3 | Rec: 98.1% | FAR: 0.0% | Acc: 99.0%",
+            "min_far": "Size: 51 | T>=20, 3/3 | Rec: 100.0% | FAR: 2.1% | Acc: 99.0%",
+            "max_rec": "Size: 49 | T>=36, 2/3 | Rec: 98.1% | FAR: 0.0% | Acc: 99.0%",
+            "best_efficiency": "Size: 49 | T>=36, 2/3 | Rec: 98.1% | FAR: 0.0% | Acc: 99.0%"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "drone_type": "Membo",
+    "architecture": {
+        "window_size": 248,
+        "hidden_neurons": 64
+    },
+    "micro_accuracy": "77.37%",
+    "best_vhdl_deployments": {
+        "method_2_fast": "X>=40, Y>=55 | Recall: 90.0% | FAR: 2.6%",
+        "method_3_god_mode": "T>=22, 3/3 | Recall: 100.0% | FAR: 5.4%",
+        "method_3_ghost": "T>=36, 3/3 | Recall: 87.5% | FAR: 0.0%"
+    }
+}
