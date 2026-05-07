@@ -1,0 +1,62 @@
+# =========================================
+# Xilinx Vivado / VHDL Ignored Files
+# =========================================
+*.jou
+*.log
+*.pb
+*.str
+*.wdb
+*.wcfg
+*.do
+.Xil/
+*_webtalk.html
+*_webtalk.xml
+xsim.dir/
+xelab.pb
+xvlog.pb
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.ip_user_files/
+
+# Note: We are allowing .dcp files because you are tracking 
+# 'neuromorphic_core.dcp' in your design sources.
+# If you want to ignore all future .dcp files EXCEPT that one, uncomment below:
+# *.dcp
+# !hw/hdl/design_souces/neuromorphic_core.dcp
+
+# =========================================
+# Python / Machine Learning Ignored Files
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+# =========================================
+# OS / System Ignored Files
+# =========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =========================================
+# Data / Weights (Optional Guardrails)
+# =========================================
+# Note: You are currently tracking your .npy and .zip weights in the repo. 
+# If they get too large (GitHub blocks files >100MB), you will want to ignore 
+# them here and move them to Drive alongside the Vivado projects.
