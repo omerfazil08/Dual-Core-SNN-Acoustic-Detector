@@ -20,3 +20,14 @@ This repository contains the software-hardware co-design of a Dual-Core Spiking 
 * **Input:** Raw 16kHz audio $\rightarrow$ 15.5ms Micro-Windows (248 samples).
 * **Integration:** 64-frame Macro-Windows (0.99 seconds).
 * **Tracking:** 5-frame Temporal Coincidence Sliding Window.
+
+## 🛠️ Hardware Implementation & Vivado Projects
+
+The VHDL source files, testbenches, and XDC constraints are located in the `hw/` directory. Due to the massive file sizes of compiled FPGA binaries and cache files, the fully synthesized and routed Vivado projects are hosted externally.
+
+You can download the complete, ready-to-run Vivado projects (including synthesis reports, routed checkpoints, and generated bitstreams) from the following link:
+
+📦 **[Download Compiled Vivado Projects (Google Drive)](https://drive.google.com/drive/folders/1KPft4jT-i0KJ37-gRoeLCIIZLi-E8B_v?usp=sharing)**
+
+### Project Archive Contents:
+The archive contains 4 completed project runs, allowing you to instantly deploy the neural networks to the Artix-7 fabric or review the timing and utilization closures without needing to rerun the lengthy synthesis and implementation pipelines.
