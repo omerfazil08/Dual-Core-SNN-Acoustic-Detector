@@ -38,7 +38,7 @@ The archive contains 4 completed project runs, allowing you to instantly deploy 
 ![alt text](merge_sim_results.png)
 * **Post Implemenation Utilization Results:**
 ![alt text](merge_post-implemenation_utilization.png)
-* **Post Implemenation Timing Power:**
+* **Post Implemenation Power Results:**
 ![alt text](merge_post-implemenation_power.png)
 * **Post Implemenation Timing Results:**
 ![alt text](merge_post-implemenation_timing.png)
@@ -47,7 +47,7 @@ The archive contains 4 completed project runs, allowing you to instantly deploy 
 ![alt text](bebop_sim_results.png)
 * **Post Implemenation Utilization Results:**
 ![alt text](bebop_post-implemenation_utilization.png)
-* **Post Implemenation Timing Power:**
+* **Post Implemenation Power Results:**
 ![alt text](bebop_post-implemenation_power.png)
 * **Post Implemenation Timing Results:**
 ![alt text](bebop_post-implemenation_timing.png)
