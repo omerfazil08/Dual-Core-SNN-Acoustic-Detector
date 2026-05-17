@@ -31,3 +31,23 @@ You can download the complete, ready-to-run Vivado projects (including synthesis
 
 ### Project Archive Contents:
 The archive contains 4 completed project runs, allowing you to instantly deploy the neural networks to the Artix-7 fabric or review the timing and utilization closures without needing to rerun the lengthy synthesis and implementation pipelines.
+
+### Vivado Hardware Results:
+**Merge**
+* **Simulation Results:**
+![alt text](merge_sim_results.png)
+* **Post Implemenation Utilization Results:**
+![alt text](merge_post-implemenation_utilization.png)
+* **Post Implemenation Timing Power:**
+![alt text](merge_post-implemenation_power.png)
+* **Post Implemenation Timing Results:**
+![alt text](merge_post-implemenation_timing.png)
+**Single Core Bebop**
+* **Simulation Results:**
+![alt text](bebop_sim_results.png)
+* **Post Implemenation Utilization Results:**
+![alt text](bebop_post-implemenation_utilization.png)
+* **Post Implemenation Timing Power:**
+![alt text](bebop_post-implemenation_power.png)
+* **Post Implemenation Timing Results:**
+![alt text](bebop_post-implemenation_timing.png)
